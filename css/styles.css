@@ -32,6 +32,14 @@ body {
     color: var(--brand-color);
 }
 
+.section{
+    background-color: var(--brand-color);
+}
+
+.section-title{
+    
+}
+
 .nav-link:hover,
 .nav-link:focus {
     color: #404bbf;
