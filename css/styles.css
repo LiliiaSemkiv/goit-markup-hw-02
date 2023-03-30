@@ -2,9 +2,23 @@ body {
     font-family: 'Roboto', sans-serif;
     color: rgb(67, 68, 85, 1);
     font-size: 16px;
+    background-color: #ffffff;
 }
+
+:root{
+    --brand-color:
+}
+
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
 
 .nav-link:hover,
-.nav-link:focus{
-
-}
+.nav-link:focus {}
