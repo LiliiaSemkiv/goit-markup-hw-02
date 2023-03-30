@@ -1,46 +1,118 @@
-body {
+:foot{
+
+}
+
+body{
     font-family: 'Roboto', sans-serif;
-    color: rgb(67, 68, 85, 1);
-    font-size: 16px;
+    color: #434455;
     background-color: #ffffff;
 }
 
-:root{
-    --brand-color: #2e2f42;
-}
-
-.nav-logo {
-    font-family: 'Raleway', sans-serif;
+.header-logo,
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
 
-.header-logo{
-    color: var(--brand-color);
-    list-style: none;
+.header-logo2{
+    color: #2E2F42;
 }
 
-.nav-item{
+.footer-logo2{
+    color: #F4F4FD;
+}
+
+.header-list{
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color);
+    color:#2E2F42;
 }
 
-.section{
-    background-color: var(--brand-color);
+.address-list{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-.section-title{
-    
+.section1-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404bbf;
+.section1-btn{
+
+}
+
+.section2-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section2-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section3-title,
+.section4-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.section4-subtitle{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section4-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.list{
+    list-style: none;
 }
