@@ -54,7 +54,7 @@ body{
 }
 
 .address{
-    font-style: normal
+    font-style: normal;
 }
 
 .address-link{
@@ -205,4 +205,8 @@ background-color: #404BBF;
 .portfolio-btn:focus{
     color: #FFFFFF;
     background-color: #404BBF;
+}
+
+.portfolio-img-link{
+    text-decoration: none;
 }
