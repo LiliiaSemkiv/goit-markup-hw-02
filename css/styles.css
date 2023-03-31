@@ -1,7 +1,6 @@
-:root {
+:root{
 --brand-color-1: #2E2F42;
 --brand-color-2: #434455;
---
 }
 
 body{
@@ -28,6 +27,20 @@ body{
     color: var(--brand-color-1);
 }
 
+.header-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.header-link:hover,
+.header-link:active{
+    color: #404BBF;
+}
+
 .footer-logo-two{
     color: #F4F4FD;
 }
@@ -49,6 +62,10 @@ body{
     color: var(--brand-color-2);
 }
 
+.section-one{
+    background-color: var(--brand-color-1);
+}
+
 .section-one-title{
     font-weight: 700;
     font-size: 56px;
@@ -62,6 +79,7 @@ body{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
