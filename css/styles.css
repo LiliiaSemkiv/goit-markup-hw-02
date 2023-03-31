@@ -37,7 +37,7 @@ body{
 }
 
 .header-link:hover,
-.header-link:active{
+.header-link:focus{
     color: #404BBF;
 }
 
@@ -53,13 +53,22 @@ body{
     color: var(--brand-color-1);
 }
 
-.address-list{
+.address{
+    font-style: normal
+}
+
+.address-link{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color-2);
+}
+
+.address-link:hover,
+.address-link:focus{
+    color: #404bbf;
 }
 
 .section-one{
