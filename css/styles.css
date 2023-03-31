@@ -1,11 +1,12 @@
-:foot{
+:root {
 --brand-color-1: #2E2F42;
 --brand-color-2: #434455;
+--
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: var(--brand-color-2);
+    color: #434455;
     background-color: #ffffff;
 }
 
