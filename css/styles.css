@@ -1,18 +1,21 @@
 :root{
---brand-color-1: #2E2F42;
---brand-color-2: #434455;
+--brand-color-1-navy-blue: #2E2F42;
+--brand-color-2-slate: #434455;
+--brand-color-3-iris: #4D5AE5;
+--brand-color-4-ocean: #404BBF;
+--brand-color-5-cloud: #F4F4FD;
+--brand-color-6-white: #ffffff;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+    color: var(--brand-color-2-slate);
+    background-color: var(--brand-color-6-white);
 }
 
 .header-logo,
 .footer-logo{
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -20,29 +23,28 @@ body{
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--brand-color-3-iris);
 }
 
 .header-logo-two{
-    color: var(--brand-color-1);
+    color: var(--brand-color-1-navy-blue);
 }
 
 .header-link{
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--brand-color-1-navy-blue);
 }
 
 .header-link:hover,
 .header-link:focus{
-    color: #404BBF;
+    color: var(--brand-color-4-ocean);
 }
 
 .footer-logo-two{
-    color: #F4F4FD;
+    color: var(--brand-color-5-cloud);
 }
 
 .header-list{
@@ -50,7 +52,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color-1);
+    color: var(--brand-color-1-navy-blue);
 }
 
 .address{
@@ -58,21 +60,20 @@ body{
 }
 
 .address-link{
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color-2);
+    color: var(--brand-color-2-slate);
 }
 
 .address-link:hover,
 .address-link:focus{
-    color: #404bbf;
+    color: var(--brand-color-4-ocean);
 }
 
 .section-one{
-    background-color: var(--brand-color-1);
+    background-color: var(--brand-color-1-navy-blue);
 }
 
 .section-one-title{
@@ -81,7 +82,7 @@ body{
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--brand-color-6-white);
 }
 
 .section-one-btn{
@@ -91,14 +92,14 @@ body{
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
+    color: var(--brand-color-6-white);
+    background-color: var(--brand-color-3-iris);
     cursor: pointer;
 }
 
 .section-one-btn:hover,
 .section-one-btn:focus{
-background-color: #404BBF;
+    background-color: var(--brand-color-4-ocean);
 }
 
 .section-two-subtitle{
@@ -106,7 +107,7 @@ background-color: #404BBF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--brand-color-1);
+    color: var(--brand-color-1-navy-blue);
 }
 
 .section-two-text{
@@ -114,7 +115,7 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color-2);
+    color: var(--brand-color-2-slate);
 }
 
 .section-three-title,
@@ -125,7 +126,7 @@ background-color: #404BBF;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--brand-color-1);
+    color: var(--brand-color-1-navy-blue);
 }
 
 .section-four-subtitle{
@@ -134,7 +135,7 @@ background-color: #404BBF;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--brand-color-1);
+    color: var(--brand-color-1-navy-blue);
 }
 
 .section-four-text{
@@ -143,15 +144,15 @@ background-color: #404BBF;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--brand-color-2);
+    color: var(--brand-color-2-slate);
 }
 
 .section-four-item{
-    background-color:#ffffff;
+    background-color: var(--brand-color-6-white);
 }
 
 .footer{
-    background-color: var(--brand-color-1);
+    background-color: var(--brand-color-1-navy-blue);
 }
 
 .footer-text{
@@ -159,7 +160,7 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--brand-color-5-cloud);
 }
 
 .list{
@@ -171,7 +172,7 @@ background-color: #404BBF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--brand-color-1);
+    color: var(--brand-color-1-navy-blue);
 }
 
 .portfolio-img-text{
@@ -179,7 +180,7 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--brand-color-2);
+    color: var(--brand-color-2-slate);
 }
 
 .link{
@@ -187,7 +188,7 @@ background-color: #404BBF;
 }
 
 .section-four{
-    background-color: #F4F4FD;
+    background-color: var(--brand-color-5-cloud);
 }
 
 .portfolio-btn{
@@ -196,15 +197,15 @@ background-color: #404BBF;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--brand-color-3-iris);
     cursor: pointer;
-    background-color: #F4F4FD;
+    background-color: var(--brand-color-5-cloud);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--brand-color-6-white);
+    background-color: var(--brand-color-4-ocean);
 }
 
 .portfolio-img-link{
